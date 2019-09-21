@@ -97,3 +97,11 @@ This code book summarizes the resulting data fields in `tidy_data_set.txt`.
 * `SITTING` (value `4`): subject was sitting during the test
 * `STANDING` (value `5`): subject was standing during the test
 * `LAYING` (value `6`): subject was laying down during the test
+
+## Transformations
+The following transformations were applied to the source data:
+1. All data sets (traing and test sets) were merged to create one data set.
+1. The measurements on the mean and standard deviation (i.e. signals containing the strings `mean` and `std`) were extracted for each measurement, and the others were discarded.
+1. The activity identifiers and the variable names were replaced with descriptive activity names.
+1. From the merged data set in step 3, the final data set was created with the average of each variable for each activity and each subject.
+
