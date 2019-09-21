@@ -8,7 +8,7 @@ This repository contains the following files:
 
 - `README.md`, this file, which provides an overview of the data set and how it was created.
 - `tidy_data_set.txt`, which contains the data set.
-- `CodeBook.md`, the code book, which describes the contents of the data set.
+- `Code Book.md`, the code book, which describes the contents of the data set.
 - `run_analysis.R`, the R script that was used to create the data set.
 
 ## Creating the data set
